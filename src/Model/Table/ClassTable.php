@@ -1,11 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Jarek
- * Date: 2015-06-04
- * Time: 18:08
- */
 
-class ClassTable {
+namespace App\Model\Table;
 
+use Cake\ORM\Table;
+
+class ClassesTable extends Table
+{
+    public function initialize(array $config)
+    {
+        $this->addBehavior('Timestamp');
+    }
 }
