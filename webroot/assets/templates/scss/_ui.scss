@@ -1,0 +1,150 @@
+/* BOURBON */
+
+@import 'bourbon/_bourbon';
+
+/* VARIABLES */
+
+$font-size: 18px;
+
+$white: #fff;
+$black: #000;
+$grey: #e9e9e9;
+$grey-light: #f3f3f3;
+$grey-dark: #b4b4b4;
+$red: #df314d;
+$category-01: #7ec1e4;
+$category-02: #e9d785;
+$category-03: #e47e7e;
+$category-04: #b3ca6a;
+
+/* MIXINS */
+
+$heading-map:
+        (h1, 70px, 300, 0px, 0px),
+        (h2, 25px, 400, 4px, 4px),
+        (h3, 20px, 400, 2px, 2px),
+        (h4, 18px, 400, 2px, 2px),
+        (h5, 15px, 400, 2px, 2px),
+        (h6, 12px, 400, 1px, 2px),
+        (small, 11px, 600, 0px 0px);
+
+@each $h, $h-size, $h-weight, $h-pad-top, $h-pad-bot in $heading-map {
+  #{$h} {
+    font-size: em($h-size, $font-size);
+    font-weight: $h-weight;
+    padding: $h-pad-top 0px $h-pad-bot;
+    margin: 0;
+  }
+}
+
+
+/* GLOBAL */
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: #000;
+  background-color: $white;
+  min-height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: $font-size;
+}
+
+a:focus, a:active,
+button,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  outline: none !important;
+}
+
+#wraper {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background-color: $white;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header {
+  padding: 10px 0px;
+  margin: 0;
+  border: 0;
+  text-align: center;
+}
+
+.countdown {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  height: 180px;
+  white-space: nowrap;
+  position: relative;
+
+  .circle {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+    path {
+      fill: transparent;
+      stroke-width: 3;
+      &.circle-bg {
+        stroke: #ededed;
+      }
+      &.circle-over {
+        stroke: #b3ca6a;
+        //stroke: #df314d;
+      }
+    }
+  }
+  .circle-wrap {
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    @include position(absolute, 0px 0px 0px 0px);
+
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+
+    .text-box {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+    }
+  }
+}
+
+.category-01 {
+  background-color: $category-01;
+}
+.category-02 {
+  background-color: $category-02;
+}
+.category-03 {
+  background-color: $category-03;
+}
+.category-04 {
+  background-color: $category-04;
+}

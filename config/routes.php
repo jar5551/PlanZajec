@@ -9,13 +9,13 @@ Router::defaultRouteClass('Route');
 Router::scope('/', function ($routes) {
 
     // Strona główna
-    $routes->connect('/', ['controller' => 'Classes', 'action' => 'index']);
+    $routes->connect('/', ['controller' => 'Pages', 'action' => 'index']);
 
     // Strona logowania
     $routes->connect('/login', ['controller' => 'Users', 'action' => 'login']);
 
     // Strona wylogowania
-    $routes->connect('/logout', ['controller' => 'Users', 'action' => 'logout']);
+    $routes->connect('/wyloguj', ['controller' => 'Users', 'action' => 'logout']);
 
     $routes->fallbacks('InflectedRoute');
 });

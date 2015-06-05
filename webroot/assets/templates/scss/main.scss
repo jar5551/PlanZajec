@@ -1,0 +1,205 @@
+/* UI */
+
+@import 'ui';
+
+/* SECTION */
+
+$footer-height: 115px;
+#side-menu {
+  width: 100%;
+  background-color: $grey-dark;
+  .container {
+    width: 266px;
+    margin: 0;
+  }
+  header {
+    background-color: #ededed;
+    padding: 20px 0px 5px;
+    .photo {
+      width: 70px;
+      height: 70px;
+      overflow: hidden;
+      display: inline-block;
+      @include border-style(solid);
+      @include border-width(2px);
+      @include border-color($white);
+      @include border-top-radius(50%);
+      @include border-bottom-radius(50%);
+      -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+      box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+
+      img {
+        width: 100%;
+
+      }
+    }
+    h5 {
+      font-weight: 600;
+      padding: 5px 0px 0px;
+    }
+    small {
+      text-transform: uppercase;
+      font-weight: 400;
+
+    }
+  }
+  nav {
+    text-transform: uppercase;
+    color: $white;
+    font-weight: 300;
+    font-size: em(16, $font-size);
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        a{
+          display: block;
+          color: inherit;
+          text-decoration: none;
+          padding: 7px 0px 7px 20px;
+          @include border-style(solid null);
+          @include border-width(1px);
+          @include border-color(rgba(255, 255, 255, 0.17) null rgba(0, 0, 0, 0.17) null);
+
+          &:hover {
+            background-color: #a9a9a9;
+          }
+        }
+        &:first-child {
+          a {
+            border-top: 0;
+          }
+        }
+        &:last-child {
+          a {
+            border-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    text-transform: uppercase;
+    color: $white;
+    font-size: em(12, $font-size);
+    @include position(absolute, null 0 5px 0);
+
+    a {
+      color: inherit;
+    }
+  }
+}
+#top {
+  height: 42px;
+  line-height: 42px;
+  background-color: $grey;
+  font-size: em(18, $font-size);
+
+  .container {
+    .menu-toggle {
+      font-size: em(13, $font-size);
+      display: block;
+      height: 32px;
+      line-height: 32px;
+      width: 32px;
+      padding: 0;
+      background-color: $red;
+      color: $white;
+      margin: auto;
+      text-align: center;
+      border: 0;
+      @include position(absolute, 0px null);
+      @include border-top-radius(5px);
+      @include border-bottom-radius(5px);
+    }
+  }
+}
+
+#main {
+  padding-top: 10px;
+  padding-bottom: $footer-height + 10px;
+  $minute: 12;
+  $a: 60 / $minute;
+  $coutndown-rad: 75deg;
+
+
+  .countdown {
+    .text-box {
+      h1 {
+        line-height: 0.75em;
+      }
+    }
+  }
+
+  .additional-info {
+    position: relative;
+    padding: 20px 0px;
+
+    .dropdown-toggle {
+      margin: auto;
+      font-size: em(30, $font-size);
+      @include position(absolute, 25% 0px null null);
+    }
+  }
+}
+
+#main-footer {
+
+  $footer-header-height: 22px;
+
+  background-color: #f3f3f3;
+  height: $footer-height;
+  @include position(absolute, null 0px 0px 0px);
+
+  .container {
+    height: auto;
+
+    header {
+      h5 {
+        height: $footer-header-height;
+        line-height: $footer-header-height;
+        padding: 0;
+      }
+    }
+  }
+
+  .next-classes {
+    ul {
+      height: $footer-height - $footer-header-height;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+      font-size: 0;
+
+      li {
+        font-size: $font-size;
+        margin-right: 1px;
+        width: auto;
+        height: 100%;
+        display: inline-block;
+
+        &:last-child {
+          margin-right: 0px;
+        }
+        a {
+          padding: 20px 10px;
+          color: #fff;
+          height: 100%;
+          width: 100%;
+          display: block;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* RESPONSIVE */
+
+@import 'responsive';

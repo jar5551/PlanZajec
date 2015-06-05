@@ -14,6 +14,7 @@
  */
 namespace App\Controller;
 
+use Cake\Event\Event;
 use Cake\Core\Configure;
 use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
