@@ -2,570 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10855724-1e1f-4e70-a7b1-e2f85c49d973" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_animation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_appearance.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/601468534951e9694c487f194161ac73e9bf7ec4/_asset-pipeline.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_assign-inputs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_backface-visibility.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_background-image.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_background.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_border-color.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_border-image.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_border-radius.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_border-style.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_border-width.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/421ad7f0b947229594d6be05541180decc331885/_bourbon-deprecated-upcoming.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/421ad7f0b947229594d6be05541180decc331885/_bourbon.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_buttons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_calc.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_clearfix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_columns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_contains-falsy.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_contains.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_convert-units.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_directional-values.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_ellipsis.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_filter.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_flex-box.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_font-face.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_font-feature-settings.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_font-source-declaration.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_font-stacks.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_gradient-positions-parser.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_hide-text.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_hidpi-media-query.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_hyphens.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_image-rendering.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_is-length.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_is-light.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_is-number.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_is-size.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_keyframes.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_linear-angle-parser.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_linear-gradient-parser.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_linear-gradient.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_linear-positions-parser.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_linear-side-corner-parser.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_margin.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_modular-scale.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_padding.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_perspective.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_placeholder.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_position.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_prefixer.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/601468534951e9694c487f194161ac73e9bf7ec4/_prefixer.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/601468534951e9694c487f194161ac73e9bf7ec4/_px-to-em.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_px-to-em.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_px-to-rem.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_radial-arg-parser.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_radial-gradient-parser.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_radial-gradient.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_radial-positions-parser.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_render-gradients.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/2eae79c59a4e9a07aca40a6788d21f371e42df4a/_responsive.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_retina-image.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_selection.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_shade.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_shape-size-stripper.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_size.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/186ceeab0cfe45f3ff2b7257cd0cb06524b0cf33/_str-to-num.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_strip-units.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_text-decoration.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_text-inputs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_timing-functions.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_tint.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_transform.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_transition-property-name.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_transition.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_triangle.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/2eae79c59a4e9a07aca40a6788d21f371e42df4a/_ui.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/9aa3d12636befcb02a7e9c394d28c44881d9a176/_unpack.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/18853ac53c6b184c50c4e23aa9bba56175a95b71/_user-select.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/1730fbf584059b51011e834df746d0345329c091/_word-wrap.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/node_modules/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/img/bike.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/img/lol_cat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/2eae79c59a4e9a07aca40a6788d21f371e42df4a/main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/img/software_engineer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/img/user.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/.csscomb.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/.csslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/grunt/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/data/Data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular-snap/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/MIT-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/lib/Markdown.Converter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular-snap/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/node_modules/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/README.mdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/effects/Tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_animation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_animation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_appearance.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_appearance.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/settings/_asset-pipeline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/settings/_asset-pipeline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_assign-inputs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_assign-inputs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_backface-visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_backface-visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_background-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_background-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_border-color.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_border-color.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_border-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_border-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_border-style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_border-style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_border-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_border-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/_bourbon-deprecated-upcoming.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/_bourbon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/_bourbon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_calc.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_calc.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_contains-falsy.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_contains-falsy.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_contains.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_contains.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_convert-units.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_convert-units.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_directional-values.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_directional-values.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_ellipsis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_ellipsis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/manipulation/_evalUrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_flex-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_flex-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_font-face.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_font-face.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_font-feature-settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_font-feature-settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_font-source-declaration.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_font-source-declaration.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_font-stacks.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_font-stacks.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_gradient-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_gradient-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_hide-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_hide-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_hidpi-media-query.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_hidpi-media-query.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_hyphens.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_hyphens.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_image-rendering.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_image-rendering.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_is-length.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_is-length.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_is-light.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_is-light.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_is-number.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_is-number.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_is-size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_is-size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_keyframes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_keyframes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_linear-angle-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_linear-angle-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_linear-gradient-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_linear-gradient-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_linear-gradient.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_linear-gradient.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_linear-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_linear-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_linear-side-corner-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_linear-side-corner-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_margin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_margin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_modular-scale.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_modular-scale.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_padding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_padding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_perspective.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_perspective.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_placeholder.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_placeholder.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_position.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_position.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_prefixer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/settings/_prefixer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_prefixer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/settings/_prefixer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_px-to-em.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/settings/_px-to-em.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_px-to-em.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/settings/_px-to-em.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_px-to-rem.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_px-to-rem.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_radial-arg-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_radial-arg-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_radial-gradient-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_radial-gradient-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_radial-gradient.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_radial-gradient.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_radial-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_radial-positions-parser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_render-gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_render-gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/_responsive.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_retina-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_retina-image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_selection.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_selection.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_shade.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_shade.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_shape-size-stripper.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_shape-size-stripper.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/helpers/_str-to-num.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/helpers/_str-to-num.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_strip-units.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_strip-units.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_text-decoration.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_text-decoration.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_text-inputs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_text-inputs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_timing-functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_timing-functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_tint.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_tint.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_transform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_transform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_transition-property-name.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_transition-property-name.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_transition.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_transition.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_triangle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_triangle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/_ui.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/functions/_unpack.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/functions/_unpack.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/css3/_user-select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/css3/_user-select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/app/assets/stylesheets/addons/_word-wrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/bourbon/addons/_word-wrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/data/accepts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/core/access.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css/addGetHookIf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/affix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/event/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/event/alias.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/exports/amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/node_modules/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular-snap/angular-snap-only.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular-snap/angular-snap-only.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular-snap/angular-snap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular-snap/angular-snap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular-snap/angular-snap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular-snap/angular-snap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/node_modules/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/node_modules/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/node_modules/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/effects/animatedSelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/arr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/async.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/src/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/attributes/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/background-variant.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/data/bar.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/data/bar.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/border-radius.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular-snap/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bourbon/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/node_modules/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/grunt/bs-commonjs-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/grunt/bs-glyphicons-data-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/grunt/bs-lessdoc-parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/grunt/bs-raw-files-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/center-block.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/class2type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/attributes/classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/clearfix.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/grunt/configBridge.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css/var/cssExpand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css/curCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/data/var/data_priv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/data/var/data_user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css/defaultDisplay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/queue/delay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/src/depend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/deprecated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/dimensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/effects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/traversing/findFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/css/font-awesome.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/font.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/src/font.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/js/foo.bar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/data/foo.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/data/foo.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/js/foo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css/var/getStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/exports/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/glyphicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/goog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/src/goog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/gradients.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/grid-framework.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/hasOwn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/hide-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/image.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/src/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/indexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/core/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/input-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/intro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css/var/isHidden.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/dist/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/dist/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/dist/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/json.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/src/json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/ajax/jsonp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/jumbotron.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/ajax/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/css/main.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/manipulation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/mdown.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/src/mdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/nav-divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/noext.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/src/noext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/ajax/var/nonce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/normalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/dist/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/opacity.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/outro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/angular-snap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/node_modules/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/core/parseHTML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/ajax/parseJSON.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/ajax/parseXML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/pnum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/progress-bar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/attributes/prop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/src/propertyParser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/push.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/core/ready.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/examples/img/relativePath.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/lib/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/reset-filter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/resize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/responsive-embed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css/var/rmargin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/rnotwhite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css/var/rnumnonpx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/ajax/var/rquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/core/var/rsingleTag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/grunt/sauce_browsers.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/ajax/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/selector-native.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/selector-sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/serialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/size.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/sizzle/dist/sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/sizzle/dist/sizzle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/sizzle/dist/sizzle.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/slice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/css/snap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/js/snap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/strundefined.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/attributes/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/event/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/manipulation/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/css/swap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/tab-focus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/table-row.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/text-overflow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/requirejs-plugins/lib/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/var/toString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/js/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/traversing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/attributes/val.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/font-awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/bootstrap/less/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/assets/templates/components/jquery/src/ajax/xhr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/2eae79c59a4e9a07aca40a6788d21f371e42df4a/_ui.scssc" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/2eae79c59a4e9a07aca40a6788d21f371e42df4a/_ui.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/2eae79c59a4e9a07aca40a6788d21f371e42df4a/main.scssc" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/.sass-cache/2eae79c59a4e9a07aca40a6788d21f371e42df4a/main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/img/user.jpg" afterPath="$PROJECT_DIR$/webroot/img/user.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/AppController.php" afterPath="$PROJECT_DIR$/src/Controller/AppController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PagesController.php" afterPath="$PROJECT_DIR$/src/Controller/PagesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/UsersController.php" afterPath="$PROJECT_DIR$/src/Controller/UsersController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/UsersTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/UsersTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/assets/templates/scss/_ui.scss" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/_ui.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Users/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Users/add.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Classes/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Classes/index.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Common/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Common/index.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Users/login.ctp" afterPath="$PROJECT_DIR$/src/Template/Users/login.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/assets/templates/css/main.css.map" afterPath="$PROJECT_DIR$/webroot/assets/templates/css/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/assets/templates/css/main.css" afterPath="$PROJECT_DIR$/webroot/assets/templates/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/assets/templates/scss/main.scss" afterPath="$PROJECT_DIR$/webroot/assets/templates/scss/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.php" afterPath="$PROJECT_DIR$/config/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -599,8 +50,8 @@
       <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/PagesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="986">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1173">
+              <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
               <folding>
                 <element signature="e#602#623#0#PHP" expanded="true" />
               </folding>
@@ -611,73 +62,21 @@
       <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="1190">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/AppController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.576923" vertical-offset="57" max-vertical-offset="1071">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1394">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding>
-                <element signature="e#602#633#0#PHP" expanded="true" />
+                <element signature="e#34#67#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.php">
+      <file leaf-file-name="ClassesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ClassesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="476">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="510">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/assets/templates/scss/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.654546" vertical-offset="0" max-vertical-offset="3570">
-              <caret line="28" column="45" selection-start-line="27" selection-start-column="6" selection-end-line="28" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_ui.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/assets/templates/scss/_ui.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.218182" vertical-offset="794" max-vertical-offset="2635">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/assets/templates/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3975" max-vertical-offset="5015">
-              <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/assets/templates/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -685,18 +84,62 @@
       <file leaf-file-name="index.ctp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/Common/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="3349">
-              <caret line="25" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="191" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="992" max-vertical-offset="3383">
+              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="72" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.ctp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webroot/assets/templates/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.85" vertical-offset="357" max-vertical-offset="3655">
+              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Users/add.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="920" max-vertical-offset="1989">
+              <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersTable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Table/UsersTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="612">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding>
+                <element signature="e#35#54#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormHelper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="964" max-vertical-offset="43214">
+              <caret line="109" column="81" selection-start-line="109" selection-start-column="81" selection-end-line="109" selection-end-column="81" />
+              <folding>
+                <marker date="1433618425783" expanded="true" signature="3486:3499" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.ctp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/Users/login.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1405406" vertical-offset="839" max-vertical-offset="1870">
-              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1955">
+              <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -706,9 +149,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -723,19 +163,21 @@
         <option value="$PROJECT_DIR$/src/Controller/UserController.php" />
         <option value="$PROJECT_DIR$/src/Model/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/Template/User/login.ctp" />
-        <option value="$PROJECT_DIR$/src/Model/Table/UsersTable.php" />
         <option value="$PROJECT_DIR$/src/Controller/ClassController.php" />
         <option value="$PROJECT_DIR$/src/Controller/ClassesController.php" />
-        <option value="$PROJECT_DIR$/src/Controller/UsersController.php" />
-        <option value="$PROJECT_DIR$/src/Template/Classes/index.ctp" />
         <option value="$PROJECT_DIR$/webroot/assets/templates/js/main.js" />
-        <option value="$PROJECT_DIR$/webroot/assets/templates/scss/main.scss" />
         <option value="$PROJECT_DIR$/webroot/assets/templates/scss/_ui.scss" />
-        <option value="$PROJECT_DIR$/src/Controller/PagesController.php" />
         <option value="$PROJECT_DIR$/src/Controller/AppController.php" />
+        <option value="$PROJECT_DIR$/src/Template/Classes/index.ctp" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php" />
+        <option value="$PROJECT_DIR$/src/Model/Table/UsersTable.php" />
+        <option value="$PROJECT_DIR$/src/Controller/UsersController.php" />
         <option value="$PROJECT_DIR$/config/routes.php" />
-        <option value="$PROJECT_DIR$/src/Template/Common/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Users/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Users/login.ctp" />
+        <option value="$PROJECT_DIR$/src/Controller/PagesController.php" />
+        <option value="$PROJECT_DIR$/src/Template/Common/index.ctp" />
+        <option value="$PROJECT_DIR$/webroot/assets/templates/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -802,6 +244,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -809,6 +252,110 @@
               <option name="myItemId" value="PlanZajec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanZajec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanZajec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanZajec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanZajec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -831,24 +378,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlanZajec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlanZajec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -873,30 +402,8 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PlanZajec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlanZajec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -919,10 +426,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -937,28 +440,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlanZajec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlanZajec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1008,13 +489,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanZajec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanZajec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1125,7 +623,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433442857126</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="logowanie, wyglad i swipe menu">
+      <created>1433525389457</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1433525389457</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1133,26 +637,26 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2565543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2565543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1175,13 +679,52 @@
     <MESSAGE value="poprawiono opis" />
     <MESSAGE value="users" />
     <MESSAGE value="logowanie" />
-    <option name="LAST_COMMIT_MESSAGE" value="logowanie" />
+    <MESSAGE value="logowanie, wyglad i swipe menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="logowanie, wyglad i swipe menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webroot/assets/templates/scss/_ui.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1754" max-vertical-offset="2822">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/assets/templates/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Common/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="3349">
+          <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Users/login.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="482" max-vertical-offset="1870">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3264" max-vertical-offset="5644">
+          <caret line="189" column="29" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/PagesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="935">
@@ -1196,9 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1071">
           <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="e#602#633#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1206,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2771">
           <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="3791">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1238,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="3349">
           <caret line="39" column="7" selection-start-line="28" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1254,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="510">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,9 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1071">
           <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="e#602#633#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1290,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="2278">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1298,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="3349">
           <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="510">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1322,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1362,13 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22162162" vertical-offset="3049" max-vertical-offset="5644">
-          <caret line="189" column="29" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20647773" vertical-offset="0" max-vertical-offset="741">
@@ -1383,34 +903,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/UsersTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="459">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/ClassesTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ClassesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="510">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webroot/assets/templates/components/angular-snap/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="766">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1418,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33287293" vertical-offset="201" max-vertical-offset="3349">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,15 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Classes/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,51 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3975" max-vertical-offset="5015">
           <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/assets/templates/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.654546" vertical-offset="0" max-vertical-offset="3570">
-          <caret line="28" column="45" selection-start-line="27" selection-start-column="6" selection-end-line="28" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/assets/templates/scss/_ui.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.218182" vertical-offset="794" max-vertical-offset="2635">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="986">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#602#623#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.576923" vertical-offset="57" max-vertical-offset="1071">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="e#602#633#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="1190">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1494,32 +935,145 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3264" max-vertical-offset="5644">
+          <caret line="189" column="29" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/assets/templates/scss/_ui.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.576923" vertical-offset="374" max-vertical-offset="2941">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06706114" vertical-offset="0" max-vertical-offset="12189">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.76923" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/ClassesTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20118344" vertical-offset="0" max-vertical-offset="1014">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.833334" vertical-offset="5446" max-vertical-offset="6443">
+          <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Users/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="920" max-vertical-offset="1989">
+          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Classes/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.016765285" vertical-offset="0" max-vertical-offset="1014">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="476">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
+        <state vertical-scroll-proportion="0.26824456" vertical-offset="0" max-vertical-offset="1014">
+          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Common/index.ctp">
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="3349">
-          <caret line="25" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="191" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="964" max-vertical-offset="43214">
+          <caret line="109" column="81" selection-start-line="109" selection-start-column="81" selection-end-line="109" selection-end-column="81" />
+          <folding>
+            <marker date="1433618425783" expanded="true" signature="3486:3499" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/UsersTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="612">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="e#35#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ClassesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="510">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Users/login.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1405406" vertical-offset="839" max-vertical-offset="1870">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1955">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1394">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#34#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1173">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+          <folding>
+            <element signature="e#602#623#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Common/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="992" max-vertical-offset="3383">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="72" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/assets/templates/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85" vertical-offset="357" max-vertical-offset="3655">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
           <folding />
         </state>
       </provider>

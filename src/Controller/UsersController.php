@@ -16,6 +16,7 @@ class UsersController extends AppController
         // You should not add the "login" action to allow list. Doing so would
         // cause problems with normal functioning of AuthComponent.
         $this->Auth->allow(['add', 'logout']);
+
     }
 
     public function index()
@@ -25,9 +26,15 @@ class UsersController extends AppController
 
     public function login()
     {
+        if ($this->Auth->user()) {
+            return $this->redirect('/');
+        }
+
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
+
             if ($user) {
+
                 $this->Auth->setUser($user);
                 return $this->redirect($this->Auth->redirectUrl());
             }
@@ -52,12 +59,15 @@ class UsersController extends AppController
 
     public function add()
     {
+        if ($this->Auth->user()) {
+            return $this->redirect('/');
+        }
         $user = $this->Users->newEntity();
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->data);
             if ($this->Users->save($user)) {
-                $this->Flash->success(__('Użytkownik został zapisany'));
-                return $this->redirect(['action' => 'add']);
+                $this->Flash->success(__('Użytkownik został utworzony. Teraz możesz się zalogować!'));
+                return $this->redirect(['action' => 'login']);
             }
             $this->Flash->error(__('Nie można dodać użytkownika'));
         }

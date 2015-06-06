@@ -79,16 +79,21 @@ $cakeDescription = 'Plan zajęć';
                 <h2>Proszę się zalogować</h2>
                 <h5>Aplikacja dostępna jest tylko dla zalogowanych użytkowników</h5>
             </header>
+            <?= $this->Flash->render() ?>
             <div class="content">
                 <div class="users form">
-                    <?= $this->Flash->render('auth') ?>
                     <?= $this->Form->create() ?>
                     <div class="form-group">
                         <?= $this->Form->input('username', ['label' => 'Email', 'class' => 'form-control', 'placeholder' => 'Proszę podać email']) ?>
                         <?= $this->Form->input('password', ['label' => 'Hasło', 'class' => 'form-control', 'placeholder' => 'Hasło']) ?>
                     </div>
-                    <?= $this->Form->button(__('Zaloguj się'),['class' => 'btn btn-default']); ?>
+                    <div class="form-group text-center">
+                        <?= $this->Form->button(__('Zaloguj się'),['class' => 'btn btn-default']); ?>
+                    </div>
                     <?= $this->Form->end() ?>
+                    <div class="text-center">
+                        <?= $this->Html->link('Nie mam konta. Chcę się zarejestrować.', ['controller' => 'Users', 'action' => 'add']) ?>
+                    </div>
                 </div>
             </div>
         </div>

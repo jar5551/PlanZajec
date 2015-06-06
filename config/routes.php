@@ -14,6 +14,9 @@ Router::scope('/', function ($routes) {
     // Strona logowania
     $routes->connect('/login', ['controller' => 'Users', 'action' => 'login']);
 
+    // Strona rejestracji
+    $routes->connect('/zarejestruj', ['controller' => 'Users', 'action' => 'add']);
+
     // Strona wylogowania
     $routes->connect('/wyloguj', ['controller' => 'Users', 'action' => 'logout']);
 

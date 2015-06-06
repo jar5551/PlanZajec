@@ -29,8 +29,19 @@ use Cake\View\Exception\MissingTemplateException;
 class PagesController extends AppController
 {
 
+
     public  function index()
     {
+        $user = $this->Auth->user();
+        if($user['image'] == '') {
+            $user['image'] = 'webroot/img/user.jpg';
+        }
+        $user['username_display'] = $user['username'];
+        if($user['firstname'] != '' && $user['surname'] != '') {
+            $user['username_display'] = $user['firstname'] . ' ' . $user['surname'];
+        }
+
+        $this->set(compact('user'));
         $this->render('/Common/index');
     }
 

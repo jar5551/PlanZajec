@@ -65,11 +65,13 @@ $cakeDescription = 'Plan zajęć';
 <div id="side-menu" snap-drawer>
     <header class="text-center">
         <div class="container">
-            <div class="photo">
-                <img src="webroot/img/user.jpg" alt="Username"/>
-            </div>
-            <h5>Jolanta Nowakowska</h5>
-            <small>dane konta</small>
+            <a href="#">
+                <span class="photo">
+                    <img src="<?= $user['image']; ?>" alt="Username"/>
+                </span>
+                <h5><?= $user['username_display']; ?></h5>
+                <small>dane konta</small>
+            </a>
         </div>
     </header>
     <nav>
@@ -90,7 +92,7 @@ $cakeDescription = 'Plan zajęć';
         </div>
     </footer>
 </div>
-<div id="wraper" snap-content snap-options="snapOpts">
+<div id="wraper" class="scrollable" snap-content snap-options="snapOpts">
 
     <!-- TOP -->
     <header id="top">
