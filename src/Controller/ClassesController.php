@@ -17,7 +17,8 @@ class ClassesController extends AppController
         $this->set(compact('class'));*/
 
         //$class = $this->paginate('Class');
-        $class = $this->Classes->find('all');
+        //$class = $this->Classes->find('all');
+        $class = $this->Classes->find('all', ['contain' => ['Schedules']]);
         $this->set(compact('class'));
 
         //$this->render('/Common/index');

@@ -4,10 +4,12 @@ namespace App\Model\Table;
 
 use Cake\ORM\Table;
 
-class ClassesTable extends Table
+class GroupsTable extends Table
 {
     public function initialize(array $config)
     {
-        $this->belongsTo('Schedules');
+        $this->hasMany('Users');
+        $this->hasMany('Classes');
+
     }
 }

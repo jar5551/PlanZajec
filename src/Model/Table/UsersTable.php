@@ -4,9 +4,15 @@ namespace App\Model\Table;
 
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
+use Cake\Datasource\ConnectionManager;
 
 class UsersTable extends Table
 {
+
+    public function initialize(array $config)
+    {
+        $this->belongsTo('Groups');
+    }
 
     public function validationDefault(Validator $validator)
     {
@@ -26,6 +32,19 @@ class UsersTable extends Table
                     'message' => 'Hasło musi się skłądać z co najmniej 8 znaków'
                 ]
             ]);
+    }
+
+    public function getUser($user_id) {
+        $connection = ConnectionManager::get('default');
+        $results = $connection
+            ->newQuery()
+            ->select('*')
+            ->from('users')
+            ->where(['user_id' => intval($user_id)])
+            ->execute()
+            ->fetchAll('assoc');
+
+        return $results;
     }
 
 }

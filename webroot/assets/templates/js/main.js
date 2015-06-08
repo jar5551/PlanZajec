@@ -2,7 +2,7 @@
 
 'use strict';
 
-angular.module('demo', ['snap'])
+angular.module('planzajec', ['snap'])
     .controller('MainCtrl', function ($scope) {
         $scope.snapOpts = {
             disable: 'right'

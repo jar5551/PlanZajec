@@ -32,14 +32,15 @@ class PagesController extends AppController
 
     public  function index()
     {
+        $this->loadModel('Users');
+
         $user = $this->Auth->user();
-        if($user['image'] == '') {
-            $user['image'] = 'webroot/img/user.jpg';
-        }
-        $user['username_display'] = $user['username'];
-        if($user['firstname'] != '' && $user['surname'] != '') {
-            $user['username_display'] = $user['firstname'] . ' ' . $user['surname'];
-        }
+
+        $user_current_from_db = $this->Users->getUser($user['user_id']);;
+
+        $user['image'] = $this->ImageOfUser($user_current_from_db);;
+
+        $user['username_display'] = $this->NameOfUser($user_current_from_db);
 
         $this->set(compact('user'));
         $this->render('/Common/index');
@@ -71,5 +72,21 @@ class PagesController extends AppController
             }
             throw new NotFoundException();
         }
+    }
+
+    protected function NameOfUser($user) {
+        $username = $user[0]['username'];
+        if($user[0]['firstname'] != '' && $user[0]['surname'] != '') {
+            $username = $user[0]['firstname'] . ' ' . $user[0]['surname'];
+        }
+        return $username;
+    }
+
+    protected function ImageOfUser($user) {
+        $image= $user[0]['image'];
+        if($user[0]['image'] == '') {
+            $image = 'webroot/img/user.jpg';
+        }
+        return $image;
     }
 }

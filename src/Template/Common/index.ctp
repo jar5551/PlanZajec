@@ -27,7 +27,7 @@ endif;
 $cakeDescription = 'Plan zajęć';
 ?>
 <!DOCTYPE html>
-<html ng-app="demo" ng-controller="MainCtrl">
+<html ng-app="planzajec" ng-controller="MainCtrl">
 <head>
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
