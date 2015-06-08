@@ -10,6 +10,9 @@ class GroupsTable extends Table
     {
         $this->hasMany('Users');
         $this->hasMany('Classes');
+        $this->belongsTo('Schedules', [
+            'through' => 'GroupsToSchedules',
+        ]);
 
     }
 }

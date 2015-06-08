@@ -74,4 +74,14 @@ class UsersController extends AppController
         $this->set('user', $user);
     }
 
+    public function userClasses() {
+
+        $user = $this->Auth->user();
+
+        $users = $this->Users->find('all');
+
+
+        $this->set(compact('users'));
+    }
+
 }

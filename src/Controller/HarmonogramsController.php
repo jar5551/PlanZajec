@@ -7,7 +7,7 @@ class HarmonogramsController extends AppController
 
     public function index()
     {
-        $options=array(
+        /*$options=array(
             'joins' =>
                 array(
                     array(
@@ -24,6 +24,9 @@ class HarmonogramsController extends AppController
         $harmonograms = $this->Harmonograms->find('all', $options);
 
         //$harmonograms = $this->Harmonograms->find('all', ['contain' => ['Schedules']]);
+        $this->set(compact('harmonograms'));*/
+
+        $harmonograms = $this->Harmonograms->find('all', ['contain' => ['Schedules']]);
         $this->set(compact('harmonograms'));
     }
 }

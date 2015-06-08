@@ -4,12 +4,11 @@ namespace App\Model\Table;
 
 use Cake\ORM\Table;
 
-class HarmonogramsTable extends Table
+class BuildingsTable extends Table
 {
     public function initialize(array $config)
     {
-        $this->hasMany('Schedules');
+        $this->hasMany('Places');
 
     }
-
 }

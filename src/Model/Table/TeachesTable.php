@@ -4,12 +4,12 @@ namespace App\Model\Table;
 
 use Cake\ORM\Table;
 
-class ClassesTable extends Table
+class TeachersTable extends Table
 {
     public function initialize(array $config)
     {
-        $this->belongsTo('Schedules');
+        $this->hasMany('Classes');
         $this->belongsTo('Places');
-        $this->belongsTo('Teachers');
+
     }
 }
