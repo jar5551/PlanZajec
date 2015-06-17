@@ -12,7 +12,9 @@ class SchedulesTable extends Table
         $this->hasOne('Groups');
         $this->hasMany('Classes');*/
 
-        $this->belongsTo('Harmonograms');
+        $this->belongsToMany('Harmonograms', [
+            'through' => 'SchedulesToHarmonograms',
+        ]);
         $this->hasMany('Classes');
         //$this->hasMany('Groups');
 

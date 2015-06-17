@@ -74,11 +74,20 @@ class UsersController extends AppController
         $this->set('user', $user);
     }
 
-    public function userClasses() {
+    public function currentUser() {
 
         $user = $this->Auth->user();
 
-        $users = $this->Users->find('all');
+
+        $users = $this->Users->find('all',[
+            'conditions' => ['Users.user_id' => $user['user_id']],
+            'contain' => ([
+                'Groups'
+            ]),
+            'fields' => ['Users.user_id', 'Users.username', 'Users.role', 'Users.firstname', 'Users.surname', 'Users.image', 'Groups.name']
+        ]);
+
+
 
 
         $this->set(compact('users'));

@@ -27,7 +27,7 @@ endif;
 $cakeDescription = 'Plan zajęć';
 ?>
 <!DOCTYPE html>
-<html ng-app="planzajec" ng-controller="MainCtrl">
+<html ng-app="planzajec">
 <head>
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,25 +62,25 @@ $cakeDescription = 'Plan zajęć';
 
 
 <body>
-<div id="side-menu" snap-drawer>
-    <header class="text-center">
+<div id="side-menu" ng-controller="sideMenu" snap-drawer>
+    <header class="text-center" ng-controller="userName">
         <div class="container">
-            <a href="#">
+            <a snap-close ng-href="#/panel-uzytkownika">
                 <span class="photo">
-                    <img src="<?= $user['image']; ?>" alt="Username"/>
+                    <img ng-src="{{UserPhoto.url}}" alt="{{UserName.text}}"/>
                 </span>
-                <h5><?= $user['username_display']; ?></h5>
+                <h5>{{UserName.text}}</h5>
                 <small>dane konta</small>
             </a>
         </div>
     </header>
     <nav>
         <ul>
-            <li><a href="#">Plan zajęć</a></li>
-            <li><a href="#">Harmonogram zjazdów</a></li>
-            <li><a href="#">wykładowcy</a></li>
-            <li><a href="#">przedmioty</a></li>
-            <li><a href="#">mapa</a></li>
+            <li><a snap-close ng-href="#/" ng-class="{ active : isActive('/') }">Plan zajęć</a></li>
+            <li><a snap-close ng-href="#/harmonogram-zjazdow" ng-class="{ active: isActive('/harmonogram-zjazdow')}">Harmonogram zjazdów</a></li>
+            <li><a snap-close ng-href="#/wykladowcy" ng-class="{ active: isActive('/wykladowcy')}">Wykładowcy</a></li>
+            <li><a snap-close ng-href="#/moje-przedmioty" ng-class="{ active: isActive('/moje-przedmioty')}">Moje przedmioty</a></li>
+            <li><a snap-close ng-href="#/mapa-kampusu" ng-class="{ active: isActive('/mapa-kampusu')}">Mapa kampusu</a></li>
             <li><?= $this->Html->link('Wyloguj się', ['controller' => 'Users', 'action' => 'logout']) ?></li>
         </ul>
     </nav>
@@ -92,7 +92,7 @@ $cakeDescription = 'Plan zajęć';
         </div>
     </footer>
 </div>
-<div id="wraper" class="scrollable" snap-content snap-options="snapOpts">
+<div snap-content snap-options="opts" id="wraper" class="scrollable" snap-opt-disable="'right'">
 
     <!-- TOP -->
     <header id="top">
@@ -107,45 +107,14 @@ $cakeDescription = 'Plan zajęć';
     <!-- SECTION -->
 
     <section id="main">
-        <div class="container">
-            <header class="page-header">
-                <h5>Najbliższe zajęcia to:</h5>
-
-                <h2>Metody analizy danych</h2>
-            </header>
-            <div class="content">
-                <div class="countdown">
-                    <svg class="circle" x="0px" y="0px" viewBox="5 5 110 110">
-                        <path class="circle-bg"
-                              d="M 59.988797973796764 5.000001140776291 A 55 55 0 1 1 59.923606103406065 5.000053054820469 Z"></path>
-                        <path class="circle-over"
-                              d="M 59.988797973796764 5.000001140776291 A 55 55 0 1 1 8.380051517757316 41.016298604049545 "></path>
-                    </svg>
-                    <div class="circle-wrap">
-                        <span class="text-box">
-                            <h1>12</h1>
-                            <h4>min</h4>
-                            <h6>do rozpoczęcia</h6>
-                        </span>
-                    </div>
-                </div>
-                <div class="additional-info">
-                    <h6 class="text-center text-uppercase">laboratorium</h6>
-                    <p class="text-center">Sala 3/84, budynek 34</p>
-                    <h6 class="text-center">Prowadzący: R. Nafka</h6>
-                    <span class="dropdown-toggle">
-                        <i class="fa fa-angle-down"></i>
-                    </span>
-                </div>
-            </div>
-        </div>
+        <div ng-view></div>
     </section>
 
 
 
     <!-- FOOTER -->
 
-    <footer id="main-footer">
+    <footer id="main-footer" data-snap-ignore="true">
         <div class="container">
             <header><h5>NASTĘPNE ZAJĘCIA:</h5></header>
         </div>
@@ -181,11 +150,14 @@ $cakeDescription = 'Plan zajęć';
 </div>
 
 <!-- SCRIPTS -->
-
-<?= $this->Html->script('../webroot/assets/templates/components/angular/angular.min.js'); ?>
-<?= $this->Html->script('../webroot/assets/templates/js/snap.js'); ?>
-<?= $this->Html->script('../webroot/assets/templates/components/angular-snap/angular-snap.min.js'); ?>
-<?= $this->Html->script('../webroot/assets/templates/js/main.js'); ?>
+<?= $this->Html->script('../assets/templates/components/fastclick/fastclick.js'); ?>
+<?= $this->Html->script('../assets/templates/components/angular/angular.min.js'); ?>
+<?= $this->Html->script('../assets/templates/components/angular-route/angular-route.min.js'); ?>
+<?= $this->Html->script('../assets/templates/js/snap.js'); ?>
+<?= $this->Html->script('../assets/templates/components/angular-snap/angular-snap.min.js'); ?>
+<script src="http://crisbeto.github.io/angular-svg-round-progressbar/roundProgress.min.js"></script>
+<?= $this->Html->script('app.js'); ?>
+<?= $this->Html->script('controllers.js'); ?>
 
 <!-- <script data-main="assets/templates/js/app" src="assets/templates/components/require.js"></script> -->
 

@@ -32,17 +32,6 @@ class PagesController extends AppController
 
     public  function index()
     {
-        $this->loadModel('Users');
-
-        $user = $this->Auth->user();
-
-        $user_current_from_db = $this->Users->getUser($user['user_id']);;
-
-        $user['image'] = $this->ImageOfUser($user_current_from_db);;
-
-        $user['username_display'] = $this->NameOfUser($user_current_from_db);
-
-        $this->set(compact('user'));
         $this->render('/Common/index');
     }
 

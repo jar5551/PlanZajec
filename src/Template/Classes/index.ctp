@@ -1,5 +1,7 @@
 <?php
-foreach ($class as $class_each) {
-    unset($class_each->generated_html);
+$this->layout = false;
+
+foreach ($classes as $class) {
+    unset($class->generated_html);
 }
-echo json_encode(compact('class'));
+echo json_encode(compact('classes'));
