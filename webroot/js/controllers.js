@@ -1,13 +1,17 @@
 /*global angular */
 
 app.controller('planZajec', function ($scope, $http, $interval, $filter, roundProgressService) {
-    $scope.timeToStart = 0;
+    $scope.timeToGo = 0;
 
     $http.get('classes')
         .success(function(data){
 
             var classes = data.classes;
             var classNow;
+
+            /* maksmymalna wartosc countdowna */
+            var maxHoursCountdown = 1; //ile godzin ma byc
+            $scope.max = maxHoursCountdown * 1000 * 60 *60;
 
             $interval(function(){
                     var timeNow = new Date();
@@ -18,12 +22,14 @@ app.controller('planZajec', function ($scope, $http, $interval, $filter, roundPr
                     var harmonogramKey;
                     var upcomingClass;
                     var secondsCountdown;
-                    var timeToStart;
+                    var timeToGo;
                     var upcomingClassTimeStart;
+                    var upcomingClassTimeEnd;
 
                     //console.log(classes);
                     var keepGoing = true;
                     angular.forEach(classes, function(value, key) {
+
                         if(keepGoing) {
                             classHamonogarms = value['schedule']['harmonograms'];
 
@@ -37,51 +43,59 @@ app.controller('planZajec', function ($scope, $http, $interval, $filter, roundPr
                                     harmonogramKey = key;
                                 }
                             });
-                            if(value['schedule']['harmonograms'][harmonogramKey] && $filter('date')(value['time_start'], 'HH:mm') > $filter('date')(timeNow, 'HH:mm')) {
+
+                            $scope.classIsRunning = false;
+                            $scope.classIsUpcoming = false;
+                            if(value['schedule']['harmonograms'][harmonogramKey] && $filter('date')(value['time_start'], 'HH:mm') < $filter('date')(timeNow, 'HH:mm') && $filter('date')(value['time_end'], 'HH:mm') > $filter('date')(timeNow, 'HH:mm')) {
+                                upcomingClass = value;
+                                $scope.classIsRunning = true;
+                                keepGoing = false;
+                                console.log('class is running');
+                            }
+                            else if(value['schedule']['harmonograms'][harmonogramKey] && $filter('date')(value['time_start'], 'HH:mm') > $filter('date')(timeNow, 'HH:mm')) {
                                 upcomingClass = value;
                                 keepGoing = false;
+                                $scope.classIsUpcoming = true
+                                console.log('class is upcoming');
+                            }
+                            else {
+                                console.log('no classes');
                             }
                         }
                     });
 
-                    //console.log($filter('date')(todayClasses['time_start'], 'HH:mm:ss') + ' ' + $filter('date')(timeNow, 'HH:mm:ss'));
-
-
-/*                    var keepGoing = true;
-                    angular.forEach(classes, function(value) {
-                        if(keepGoing) {
-                            //console.log(value['time_start'] + ' ' + timeNow);
-                            if(value['time_start'] >= timeNow) {
-                                classNow = value;
-                                console.log('aaa');
-                            }
-                            else {
-                                keepGoing = false;
-                            }
-                        }
-                    });*/
 
                     upcomingClassTimeStart = new Date(upcomingClass['time_start']);
+                    upcomingClassTimeEnd = new Date(upcomingClass['time_end']);
 
                     $scope.currentClass = {
                         name: upcomingClass['name'],
-                        type: 'laboratorium',
+                        type: upcomingClass['type']['name'],
                         room: upcomingClass['place']['room']['number'],
                         building: upcomingClass['place']['building']['number'],
                         teacher_name: upcomingClass['teacher']['firstname'],
                         teacher_surname: upcomingClass['teacher']['surname'],
                         time_start: upcomingClassTimeStart,
-                        time_end: new Date(upcomingClass['time_end'])
+                        time_end: upcomingClassTimeEnd
                     };
 
+                    if($scope.classIsRunning) {
+                        timeToGo = Math.abs(timeNow - upcomingClassTimeEnd) ;
+                    }
+                    else {
+                        timeToGo = Math.abs(timeNow - upcomingClassTimeStart) ;
+                    }
 
+                    var timeFormat = 'mm:ss';
 
-                    timeToStart = Math.abs(timeNow - upcomingClassTimeStart + 1000 * 60 * 60);
-                    $scope.timeToStart = $filter('date')(timeToStart, "H:mm");
+                    $scope.lessThanOneHour = false;
 
-                    secondsCountdown = $filter('date')(timeToStart, 's');
+                    if(timeToGo < maxHoursCountdown * 1000 * 60 * 60) {
+                        $scope.lessThanOneHour = true;
+                    }
+                    $scope.timeToGo = $filter('date')(timeToGo - 1000 * 60 *60, timeFormat);
 
-                    $scope.current = Math.abs(secondsCountdown);
+                    $scope.current = Math.abs(maxHoursCountdown - timeToGo);
                 },1000,0
             );
         }
@@ -91,14 +105,6 @@ app.controller('planZajec', function ($scope, $http, $interval, $filter, roundPr
 app.controller('harmonogramZjazdow', function($scope) {
 
 });
-
-app.controller('teachers', function ($scope, $http) {
-    $http.get('teachers')
-        .success(function(data){
-            $scope.teachers = data;
-        });
-});
-
 
 app.controller('teachersController', function($scope, $http){
 
@@ -114,6 +120,16 @@ app.controller('teachersController', function($scope, $http){
                 $scope.teachers[key]['image'] = teacherPhotosUrl + $scope.teachers[key]['image'];
             }
         });
+    });
+});
+
+app.controller('classesController', function($scope, $http){
+
+    $http.get('classes').success(function(data) {
+
+        $scope.classes = data.classes;
+
+
     });
 });
 

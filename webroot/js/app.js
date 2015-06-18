@@ -33,7 +33,7 @@ app.config(['$routeProvider',
             }).
             when('/moje-przedmioty', {
                 templateUrl: 'src/Template/Common/przedmioty.ctp',
-                controller: 'harmonogramZjazdow'
+                controller: 'classesController'
             }).
             when('/mapa-kampusu', {
                 templateUrl: 'src/Template/Common/mapa.ctp',

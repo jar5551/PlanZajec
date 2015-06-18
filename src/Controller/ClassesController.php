@@ -17,6 +17,7 @@ class ClassesController extends AppController
 
         $classes = $this->Classes->find('all',[
             'contain' => ([
+                'Types',
                 'Places' =>
                     ['Buildings','Rooms'],
                 'Teachers',

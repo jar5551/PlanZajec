@@ -11,5 +11,6 @@ class ClassesTable extends Table
         $this->belongsTo('Schedules');
         $this->belongsTo('Places');
         $this->belongsTo('Teachers');
+        $this->belongsTo('Types');
     }
 }
