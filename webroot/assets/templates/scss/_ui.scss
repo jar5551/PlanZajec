@@ -1,7 +1,7 @@
 /* BOURBON */
 
 @import 'bourbon/_bourbon';
-
+@import 'mixins';
 /* VARIABLES */
 
 $font-size: 18px;
@@ -190,3 +190,48 @@ a:hover {
 
   }
 }
+
+.main-content {
+  max-height: 1000px;
+  min-height: 200px;
+  overflow: hidden;
+  position: relative;
+  @include transition(all 1s ease-in);
+
+  &:after {
+    content: "";
+    display: block;
+    opacity: 0;
+    background-color: $white;
+    @include position(absolute, 0 0 0 0);
+    @include transition(all 1s ease-in);
+    z-index: -1;
+  }
+
+  .loading-circle {
+    @include loading-animation-circle;
+    content: "";
+    display: none;
+    margin: auto;
+    z-index: 2;
+    @include position(absolute, 0 0 0 0);
+  }
+
+  &.loading {
+    max-height: 200px;
+    height: 200px;
+
+    .loading-circle {
+      display: block;
+    }
+
+    &:after {
+      opacity: 1;
+      z-index: 1;
+      background-color: $white;
+      @include position(absolute, 0 0 0 0);
+    }
+  }
+}
+
+

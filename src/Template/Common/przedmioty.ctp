@@ -1,4 +1,4 @@
-<div class="container">
+<div class="main-content container{{loading}}">
     <header class="page-header">
         <h2>Moje przedmioty</h2>
     </header>
@@ -11,4 +11,5 @@
             </div>
         </div>
     </div>
+    <div class="loading-circle"></div>
 </div>

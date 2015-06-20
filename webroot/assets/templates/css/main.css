@@ -1,5 +1,28 @@
 /* UI */
 /* BOURBON */
+@-webkit-keyframes loading-animation-rotation {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg); } }
+@-moz-keyframes loading-animation-rotation {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(359deg); } }
+@keyframes loading-animation-rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    transform: rotate(359deg); } }
 /* VARIABLES */
 /* MIXINS */
 h1 {
@@ -173,6 +196,78 @@ a:hover {
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); }
   .photo img {
     width: 100%; }
+
+.main-content {
+  max-height: 1000px;
+  min-height: 200px;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  transition: all 1s ease-in; }
+  .main-content:after {
+    content: "";
+    display: block;
+    opacity: 0;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    z-index: -1; }
+  .main-content .loading-circle {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-animation: loading-animation-rotation 1s infinite linear;
+    -moz-animation: loading-animation-rotation 1s infinite linear;
+    animation: loading-animation-rotation 1s infinite linear;
+    border: 5px solid #d9d9d9;
+    border-radius: 100%;
+    content: "";
+    display: none;
+    margin: auto;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+    .main-content .loading-circle:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: -5px;
+      top: -5px;
+      height: 100%;
+      width: 100%;
+      border-top: 5px solid gray;
+      border-left: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-radius: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box; }
+  .main-content.loading {
+    max-height: 200px;
+    height: 200px; }
+    .main-content.loading .loading-circle {
+      display: block; }
+    .main-content.loading:after {
+      opacity: 1;
+      z-index: 1;
+      background-color: #fff;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0; }
 
 /* SECTION */
 #side-menu {
