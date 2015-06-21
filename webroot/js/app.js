@@ -3,7 +3,8 @@
 var app = angular.module('planzajec', [
     'ngRoute',
     'snap',
-    'angular-svg-round-progress'
+    'angular-svg-round-progress',
+    'angularMoment'
 ]).run(function() {
     FastClick.attach(document.body);
 });
@@ -11,7 +12,6 @@ var app = angular.module('planzajec', [
 var noPhotoUrl = 'webroot/img/user.jpg';
 var userPhotosUrl = 'webroot/upload/users/';
 var teacherPhotosUrl = 'webroot/upload/teachers/'
-
 
 
 

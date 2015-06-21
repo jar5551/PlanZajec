@@ -1,7 +1,6 @@
 /*global angular */
 
 app.controller('planZajec', function ($scope, $http, $interval, $filter, roundProgressService) {
-
     $scope.timeToGo = 0;
     $scope.loading = ' loading';
     $scope.isAnyClass = false;
@@ -31,7 +30,6 @@ app.controller('planZajec', function ($scope, $http, $interval, $filter, roundPr
                     var upcomingClassTimeStart;
                     var upcomingClassTimeEnd;
 
-                    //console.log(classes);
                     var keepGoing = true;
                     angular.forEach(classes, function(value, key) {
 
@@ -43,7 +41,7 @@ app.controller('planZajec', function ($scope, $http, $interval, $filter, roundPr
                             dzisiajZajecia = false;
                             angular.forEach(classHamonogarms, function(value, key) {
                                 if($filter('date')(value['date'], 'dd, MM, yyyy') == $filter('date')(timeNow, 'dd, MM, yyyy')) {
-                                    //console.log('a');
+
                                     dzisiajZajecia = true;
                                     harmonogramKey = key;
                                 }
@@ -72,8 +70,9 @@ app.controller('planZajec', function ($scope, $http, $interval, $filter, roundPr
                         /*upcomingClassTimeStart = new Date(upcomingClass['time_start'].replace(/-/g,'/'));
                         upcomingClassTimeEnd = new Date(upcomingClass['time_end'].replace(/-/g,'/'));*/
 
-                        upcomingClassTimeStart = new Date(upcomingClass['time_start']);
-                        upcomingClassTimeEnd = new Date(upcomingClass['time_end']);
+                        upcomingClassTimeStart = moment(upcomingClass['time_start']);
+                        upcomingClassTimeEnd = moment(upcomingClass['time_end']);
+
 
                         $scope.currentClass = {
                             name: upcomingClass['name'],
@@ -82,15 +81,16 @@ app.controller('planZajec', function ($scope, $http, $interval, $filter, roundPr
                             building: upcomingClass['place']['building']['number'],
                             teacher_name: upcomingClass['teacher']['firstname'],
                             teacher_surname: upcomingClass['teacher']['surname'],
-                            time_start: upcomingClassTimeStart,
-                            time_end: upcomingClassTimeEnd
+                            time_start: moment(upcomingClass['time_start']).locale("pl").format("H:mm, DD MMMM YYYY"),
+                            time_end: moment(upcomingClass['time_end']).locale("pl").format("H:mm, DD MMMM YYYY")
                         };
+
+
 
                         var timeFormat = 'mm:ss';
 
                         if($scope.classIsRunning) {
                             timeToGo = (upcomingClassTimeEnd - timeNow);
-                            console.log(timeToGo);
                             if(timeToGo < 1000 * 60 * 60) {
                                 timeFormat = 'mm:ss';
                             }
@@ -118,7 +118,6 @@ app.controller('planZajec', function ($scope, $http, $interval, $filter, roundPr
                         if($scope.classIsRunning) {
                             $scope.current = Math.abs(timeToGo);
                         }
-                        console.log($scope.max);
 
                         $scope.isAnyClass = true;
                     }

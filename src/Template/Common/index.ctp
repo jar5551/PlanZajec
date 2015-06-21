@@ -155,7 +155,9 @@ $cakeDescription = 'Plan zajęć';
 <?= $this->Html->script('../assets/templates/components/angular-route/angular-route.min.js'); ?>
 <?= $this->Html->script('../assets/templates/js/snap.js'); ?>
 <?= $this->Html->script('../assets/templates/components/angular-snap/angular-snap.min.js'); ?>
-<script src="http://crisbeto.github.io/angular-svg-round-progressbar/roundProgress.min.js"></script>
+<?= $this->Html->script('../assets/templates/components/moment/moment-with-locales.js'); ?>
+<?= $this->Html->script('../assets/templates/components/moment/angular-moment.min.js'); ?>
+<?= $this->Html->script('../assets/templates/components/round-progressbar/roundProgress.min.js'); ?>
 <?= $this->Html->script('app.js'); ?>
 <?= $this->Html->script('controllers.js'); ?>
 

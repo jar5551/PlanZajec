@@ -40,7 +40,7 @@
                                     </div>
                                     <div ng-switch-when="false">
                                         <h6>Zajęcia rozpozynają się</h6>
-                                        <h3>{{currentClass.time_start | date:'HH:mm, d MMMM'}}</h3>
+                                        <h3>{{currentClass.time_start}}</h3>
                                     </div>
                                 </div>
 
